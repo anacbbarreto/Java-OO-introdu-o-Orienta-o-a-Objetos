@@ -1,4 +1,4 @@
-# Java-OO-introdu-o-Orienta-o-a-Objetos
+# Java-OO-introdução-Orientação-a-Objetos
 
 Curso do Alura - 
 Domine o paradigma de programação mais usado no mercado de trabalho
