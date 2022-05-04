@@ -12,27 +12,18 @@ package bytebank;
 public class CriaConta {
     
         public static void main(String[] args) {
-<<<<<<< HEAD
-   
+
          Conta primeiraConta = new Conta();
         primeiraConta.saldo = 200; 
         System.out.println(primeiraConta.saldo); 
-=======
-  Conta primeiraConta = new Conta();
-        primeiraConta.saldo = 200;
-        System.out.println(primeiraConta.saldo);
->>>>>>> b7202a9a992861b85a02aca26fb7a6a7f792bf0e
-
         primeiraConta.saldo += 100;
         System.out.println(primeiraConta.saldo);
 
-<<<<<<< HEAD
         Conta segundaConta = new Conta();
         segundaConta.saldo = 300;
-=======
-        Conta segundaConta = primeiraConta;
+        segundaConta = primeiraConta;
         segundaConta.saldo = 50;
->>>>>>> b7202a9a992861b85a02aca26fb7a6a7f792bf0e
+
 
         System.out.println("primeira conta tem " + primeiraConta.saldo);
         System.out.println("segunda conta tem " + segundaConta.saldo);
