@@ -10,7 +10,7 @@ package bytebank.composto;
  * @author user
  */
   public class Conta { 
-    double saldo = 100;
+    private double saldo ;
     int agencia; 
     int numero; 
     Cliente titular = new Cliente();
@@ -38,5 +38,10 @@ package bytebank.composto;
             return false;
         }
   }
+  
+  
+    public double pegaSaldo() { 
+        return this.saldo;
+    }
   }
 
