@@ -56,4 +56,17 @@ package bytebank.encapsulado;
  public int getAgencia() {
     return this.agencia;
 }
-  }
+ 
+   public void setAgencia(int agencia){
+        this.agencia = agencia;
+    }
+
+    public void setTitular(Cliente titular) { 
+        this.titular = titular; 
+
+    }
+
+    public Cliente getTitular() {
+        return titular;
+    }
+}
