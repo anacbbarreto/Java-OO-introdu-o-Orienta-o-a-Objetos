@@ -9,11 +9,12 @@ public class ReaproveitandoConstr {
         System.out.println(carro.getModelo());
         System.out.println(carro.getAno());
         System.out.println(carro.getPreco());
+        
         System.out.println();
+        
         Carro outroCarro = new Carro("Civic", 95000.0);
         System.out.println(outroCarro.getModelo());
         System.out.println(outroCarro.getAno());
         System.out.println(outroCarro.getPreco());
     }
-
 }
